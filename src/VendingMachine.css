@@ -1,0 +1,42 @@
+
+.VendingMachine{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding:5rem;    
+    background-image:url("/src/images/vending\ background.jpg");
+}
+
+
+.VendingMachine img{
+    width: 200px;
+    height: 400px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    }
+
+.VendingMachine-Link{    
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(182, 180, 177);
+    padding:2rem;
+    text-decoration:none;
+    
+}
+
+.VendingMachine-Link a:hover{
+    text-decoration:underline;
+}
+
+
+.VendingMachine-Link a{
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+}
